@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/download"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".CalcFootPrintNew"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoardNon"
+            android:exported="false" />
+        <activity
+            android:name=".EnergySavingAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".RenewableSourceAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".MonthBillPredictor"
+            android:exported="false" />
+        <activity
+            android:name=".OutageEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OutageListAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OutageAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocationAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" /> <!-- Pasindu -->
+        <activity
+            android:name=".HomePageDesignAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".HomePageDesign"
+            android:exported="false" />
+        <activity
+            android:name=".RecommendedUsageAmount"
+            android:exported="false" />
+        <activity
+            android:name=".RenewableSourceDetailsUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RenewableSourceDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsertRenewableSources"
+            android:exported="false" />
+        <activity
+            android:name=".FetchRenewableSources"
+            android:exported="false" />
+        <activity
+            android:name=".FetchRenewableSourcesUser"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Poorna -->
+        <activity
+            android:name=".CalculateElectricBill"
+            android:exported="false" />
+        <activity
+            android:name=".EConsumptionCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".FetchingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FetchingActivityUser"
+            android:exported="false" />
+        <activity
+            android:name=".InsertionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipDetailsActivityUser"
+            android:exported="false" />
+        <activity
+            android:name=".ItemAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardSupplierActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
